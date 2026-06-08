@@ -6,20 +6,16 @@
 
 body{
 
-    height:100vh;
+    min-height:100vh;
 
     background:
     linear-gradient(rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)),
-
     url("img/fondo.jpg");
 
     background-size:cover;
     background-position:center;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    background-attachment:fixed;
 
     overflow-y:auto;
 }
@@ -28,7 +24,7 @@ h1{
 
     color:#d9b08c;
 
-    margin-top: 160px;
+    margin-top: 60px;
 
     font-size:80px;
 
@@ -47,7 +43,7 @@ h1{
 
 .descripcion{
 
-    margin-top:20px;
+    margin:20px auto 0 auto;
 
     color:#f2e3d5;
 
@@ -92,6 +88,8 @@ h1{
     width:320px;
 
     text-align:left;
+
+    font-family:'Poppins', sans-serif;
 }
 
 .bloque h2{
@@ -100,7 +98,7 @@ h1{
 
     margin-bottom:20px;
 
-    font-size:28px;
+    font-size:22px;
 
     font-weight:500;
 }
@@ -144,5 +142,6 @@ h1{
 .bloque li{
     color:white;
     margin-bottom:8px;
+    font-size:15px;
     
 }
